@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1 >Welcome to my portfolio</h1>
+<p> I am {{ name }} , and i am software engineer working in a reputed organization </p>
+
+
+<!-------------------- JINJA IF Statement--------
+{% if name == "mintu" %}
+<a href="www.facebook.com">click</a>
+{% else  %}
+<a href="ww.instagram.com">Manoj</a>
+{% endif %}
+-------------->
+
+<!-------------------- JINJA FOR Statement------>
+<h4>Example</h4>
+<ul>
+    {% for i in name  %}
+        <li>{{ name[i] }}</li>
+     {% endfor %}
+</ul>
+
+
+</body>
+</html>
